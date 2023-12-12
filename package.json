@@ -1,0 +1,26 @@
+{
+  "name": "voyagermesh-web",
+  "version": "0.2.0",
+  "description": "KubeDB Website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voyagermesh/website.git"
+  },
+  "author": "AppsCode Inc. <voyagermesh-dev@appscode.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/voyagermesh/voyagermesh/issues"
+  },
+  "homepage": "https://github.com/voyagermesh/website#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^9.1.0"
+  },
+  "private": true,
+  "dependencies": {
+    "postcss": "^8.4.12"
+  }
+}
