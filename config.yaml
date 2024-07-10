@@ -9,7 +9,7 @@ disableKinds:
 theme: hugo-product-theme
 params:
   product_key: gateway
-  primary_color: 2D2978
+  primary_color: 9a3264
   main_menu_dropdown_item: database
   domain_appscode: https://appscode.com
   domain_bytebuilders: https://appscode.com
