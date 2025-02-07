@@ -13,7 +13,7 @@ docs: hugo-tools
 
 .PHONY: docs-skip-assets
 docs-skip-assets: hugo-tools
-	$(HUGO_TOOLS) docs-aggregator --skip-assets --fm-replacements product_gateway_=docs_,/products/gateway/=/docs/
+	$(HUGO_TOOLS) docs-aggregator --exclude-assets --fm-replacements product_gateway_=docs_,/products/gateway/=/docs/
 	find ./data -name "*.json" -exec sed -i 's/https:\/\/cdn.appscode.com\/images/\/assets\/images/g' {} \;
 
 .PHONY: assets
